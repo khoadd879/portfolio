@@ -11,6 +11,7 @@
   <title>Trần Khoa — Portfolio</title>
   <link rel="icon" href="./favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./projects.css">
   <script src="./script.js" defer></script>
 </head>
 <body>
@@ -54,21 +55,28 @@
 
     <section id="projects" class="projects wrap" aria-labelledby="projects-title">
       <div class="section-heading"><div><p class="eyebrow">01 / NHỮNG GÌ MÌNH XÂY DỰNG</p><h2 id="projects-title">Dự án nổi bật<span>.</span></h2></div><a class="text-link" href="https://github.com/khoadd879?tab=repositories" target="_blank" rel="noopener noreferrer">Tất cả repository <span aria-hidden="true">↗</span></a></div>
-      <div class="project-grid">
-        <article class="project-card">
-          <div class="project-art resort" aria-hidden="true"><span class="art-label">MOBILE / ANDROID</span><div class="resort-sun"></div><div class="hill hill-back"></div><div class="hill hill-front"></div><div class="phone"><div class="phone-notch"></div><span class="phone-brand">a little getaway.</span><div class="phone-landscape">☀</div><b>Find your escape.</b><div class="phone-lines"></div><span class="phone-button">Explore stays ↗</span></div><span class="art-number">01</span></div>
-          <div class="project-info"><div class="project-title"><h3>Resort Booking</h3><span aria-hidden="true">↗</span></div><p>Dự án ứng dụng Android về đặt phòng resort, được xây dựng bằng Kotlin.</p><div class="tags"><span>Kotlin</span><span>Android</span></div><a class="project-link" href="https://github.com/khoadd879/ResortBooking" target="_blank" rel="noopener noreferrer">Xem mã nguồn <span class="sr-only">Resort Booking</span><span aria-hidden="true">↗</span></a></div>
+      <p class="projects-intro">Những bài toán khác nhau. Cùng một tinh thần: học sâu, xây thật.</p>
+      <div class="selected-projects">
+        <article class="work-card">
+          <div class="work-cover cover-blindnav" aria-hidden="true">
+            <div class="cover-top"><span>COMPUTER VISION / RESEARCH</span><span>01</span></div>
+            <div class="vision-scene"><div class="vision-path"></div><div class="vision-object object-person"><span>person</span><i></i></div><div class="vision-object object-hazard"><span>obstacle</span></div><div class="vision-crosshair">+</div><div class="vision-caption"><span class="status-dot"></span> Hiểu môi trường. Mở lối di chuyển.</div></div>
+            <div class="cover-bottom"><strong>BlindNav<span>↗</span></strong><span>VISION WITH PURPOSE</span></div>
+          </div>
+          <div class="work-body"><p class="work-category">AI · KHẢ NĂNG TIẾP CẬN</p><h3>BlindNav</h3><p class="work-description">Nghiên cứu hỗ trợ người khiếm thị nhận biết môi trường đường phố Việt Nam. Kết hợp phát hiện vật thể bằng YOLO với hỏi đáp hình ảnh bằng tiếng Việt.</p><div class="work-highlights"><span>Nhận diện vật thể</span><span>Hỏi đáp hình ảnh</span><span>Pipeline gán nhãn & huấn luyện</span></div><div class="work-footer"><div class="work-tags"><span>Python</span><span>YOLO</span><span>VLM</span></div><a href="https://github.com/khoadd879/BlindNav" target="_blank" rel="noopener noreferrer" aria-label="Xem mã nguồn BlindNav">Mã nguồn <span aria-hidden="true">↗</span></a></div></div>
         </article>
-        <article class="project-card">
-          <div class="project-art ielts" aria-hidden="true"><span class="art-label">WEB / LEARNING</span><div class="learning-window"><div class="window-bar"><span>● ● ●</span><span>English, every day.</span></div><div class="learning-content"><span class="lesson-label">A LITTLE PRACTICE GOES A LONG WAY</span><strong>Make progress.<br>One word at a time.</strong><div class="lesson-tiles"><span>Aa<small>Learn</small></span><span>◖))<small>Listen</small></span><span>✎<small>Practice</small></span></div></div></div><span class="art-number">02</span></div>
-          <div class="project-info"><div class="project-title"><h3>IELTS Training App</h3><span aria-hidden="true">↗</span></div><p>Dự án ứng dụng luyện IELTS với mã nguồn TypeScript, hướng đến việc học tiếng Anh.</p><div class="tags"><span>TypeScript</span><span>Education</span></div><a class="project-link" href="https://github.com/khoadd879/ielts_training_app" target="_blank" rel="noopener noreferrer">Xem mã nguồn <span class="sr-only">IELTS Training App</span><span aria-hidden="true">↗</span></a></div>
+        <!-- TITAN_PROJECT -->
+        <article class="work-card">
+          <div class="work-cover cover-ielts" aria-hidden="true">
+            <div class="cover-top"><span>EDUCATION / BACKEND</span><span>03</span></div>
+            <div class="ielts-composition"><div class="word-card"><span>EVERY DAY, A LITTLE BETTER</span><strong>Practice.<br>Progress.<br><em>Repeat.</em></strong></div><div class="skill-chip chip-speaking">Speaking <span>↗</span></div><div class="skill-chip chip-writing">Writing <span>✎</span></div><div class="skill-chip chip-vocabulary">Vocabulary <span>Aa</span></div></div>
+            <div class="cover-bottom"><strong>IELTS<span>↗</span></strong><span>BUILT FOR LEARNING</span></div>
+          </div>
+          <div class="work-body"><p class="work-category">BACKEND · GIÁO DỤC</p><h3>IELTS Training App</h3><p class="work-description">Backend cho ứng dụng luyện IELTS, tổ chức đề thi, câu hỏi và kết quả học tập. Các module mở rộng phục vụ luyện nói, luyện viết, từ vựng và lập kế hoạch học.</p><div class="work-highlights"><span>Quản lý bài thi</span><span>Theo dõi học tập</span><span>Diễn đàn & chatbot</span></div><div class="work-footer"><div class="work-tags"><span>TypeScript</span><span>NestJS</span><span>Docker</span></div><a href="https://github.com/khoadd879/ielts_training_app" target="_blank" rel="noopener noreferrer" aria-label="Xem mã nguồn IELTS Training App">Mã nguồn <span aria-hidden="true">↗</span></a></div></div>
         </article>
-        <article class="project-card">
-          <div class="project-art library" aria-hidden="true"><span class="art-label">WEB / MANAGEMENT</span><div class="books"><div class="book book-one">THE ART OF<br><b>learning.</b><span>01 — KEEP EXPLORING</span></div><div class="book book-two">a world of<br><b>stories.</b><span>02 — STAY CURIOUS</span></div><div class="book book-three">ideas<br><b>& code.</b><span>03 — MAKE SOMETHING</span></div></div><span class="art-number">03</span></div>
-          <div class="project-info"><div class="project-title"><h3>Library Management</h3><span aria-hidden="true">↗</span></div><p>Repository quản lý thư viện dùng TypeScript. Bản fork từ julynguyen247/library-management.</p><div class="tags"><span>TypeScript</span><span>Fork</span></div><a class="project-link" href="https://github.com/khoadd879/library-management" target="_blank" rel="noopener noreferrer">Xem mã nguồn <span class="sr-only">Library Management</span><span aria-hidden="true">↗</span></a></div>
-        </article>
+        <!-- ODOO_PROJECT -->
       </div>
-      <p class="project-note">Các dự án được ghim trên GitHub · Hình minh họa mang tính khái niệm, không phải ảnh chụp ứng dụng.</p>
+      <p class="project-note">Hình minh họa được thiết kế cho portfolio, không phải ảnh chụp màn hình sản phẩm.</p>
     </section>
 
     <section id="about" class="about wrap" aria-labelledby="about-title">
