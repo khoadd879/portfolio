@@ -33,14 +33,14 @@ window.portfolioProjects = [
     ],
     "images": [
       {
-        "src": "./assets/projects/blindnav-1.svg",
-        "caption": "Sơ đồ minh họa · Tổng quan dự án (không phải ảnh giao diện)",
-        "alt": "Nhìn thế giới. Mở thêm lối đi. — Ảnh đường phố, Nhận diện YOLO, Hỏi đáp tiếng Việt"
+        "src": "./assets/projects/blindnav-1.png",
+        "caption": "Ảnh thật · YOLO phát hiện hố ga mở trên vỉa hè (open_manhole 0.94)",
+        "alt": "YOLO phát hiện hố ga mở — minh chứng hệ thống nhận diện vật cản nguy hiểm cho người khiếm thị"
       },
       {
-        "src": "./assets/projects/blindnav-2.svg",
-        "caption": "Sơ đồ minh họa · Các thành phần chính (không phải ảnh giao diện)",
-        "alt": "Các thành phần chính — Dữ liệu & gán nhãn, Huấn luyện mô hình, Đánh giá kết quả"
+        "src": "./assets/projects/blindnav-2.png",
+        "caption": "Ảnh thật · YOLO nhận diện vạch sang đường, nắp cống, cột và cây",
+        "alt": "YOLO trên ảnh đường phố Việt Nam — phát hiện crosswalk, utility_cover, pole, tree, vehicle.car"
       }
     ]
   },
@@ -78,14 +78,14 @@ window.portfolioProjects = [
     ],
     "images": [
       {
-        "src": "./assets/projects/ielts-1.svg",
-        "caption": "Sơ đồ minh họa · Tổng quan dự án (không phải ảnh giao diện)",
-        "alt": "Mỗi ngày, một bước tiến. — Nội dung học, Luyện tập, Theo dõi kết quả"
+        "src": "./assets/projects/ielts-1.png",
+        "caption": "Ảnh thật · Landing AIELTS — Master IELTS, không cần ra trung tâm",
+        "alt": "AIELTS landing page — 12.4K+ học viên, 7.5 band trung bình, đề Cambridge 17 Reading Test 3"
       },
       {
-        "src": "./assets/projects/ielts-2.svg",
-        "caption": "Sơ đồ minh họa · Các thành phần chính (không phải ảnh giao diện)",
-        "alt": "Các thành phần chính — Speaking & Writing, Grammar & Vocabulary, Study planner"
+        "src": "./assets/projects/ielts-2.png",
+        "caption": "Ảnh thật · Speaking mock test — Part 1/2/3 với timer và ghi âm",
+        "alt": "IELTS Speaking mock test UI — Mock Test 14 Band 7, ghi âm mic, cue card, Part 3 discussion"
       }
     ]
   },
@@ -127,51 +127,6 @@ window.portfolioProjects = [
     ]
   },
   {
-    "id": "resort",
-    "name": "Resort Booking",
-    "category": "MOBILE · ANDROID",
-    "group": "mobile",
-    "tagline": "Một kỳ nghỉ, bắt đầu từ đây.",
-    "short": "Ứng dụng Android đặt resort, quản lý phòng và dịch vụ với Kotlin.",
-    "description": "Resort Booking hướng tới trải nghiệm đặt resort và khách sạn trên Android. Theo tài liệu dự án, hệ thống bao gồm tìm kiếm phòng, đặt theo ngày, dịch vụ đi kèm và quản lý booking cho các vai trò người dùng, quản lý và quản trị viên.",
-    "features": [
-      "Tìm kiếm phòng và đặt theo ngày check-in / check-out.",
-      "Quản lý dịch vụ, yêu thích và chi tiết đặt phòng.",
-      "Phân quyền User, Manager, Admin; giao tiếp REST API."
-    ],
-    "tech": [
-      "Kotlin",
-      "Android",
-      "Retrofit"
-    ],
-    "repo": "ResortBooking",
-    "color": "#dce7dc",
-    "accent": "#32584d",
-    "label": "ỨNG DỤNG DI ĐỘNG",
-    "steps": [
-      "Khám phá resort",
-      "Chọn phòng",
-      "Đặt kỳ nghỉ"
-    ],
-    "detail": [
-      "Tìm kiếm & yêu thích",
-      "Phòng & dịch vụ",
-      "Quản lý booking"
-    ],
-    "images": [
-      {
-        "src": "./assets/projects/resort-1.svg",
-        "caption": "Sơ đồ minh họa · Tổng quan dự án (không phải ảnh giao diện)",
-        "alt": "Một kỳ nghỉ, bắt đầu từ đây. — Khám phá resort, Chọn phòng, Đặt kỳ nghỉ"
-      },
-      {
-        "src": "./assets/projects/resort-2.svg",
-        "caption": "Sơ đồ minh họa · Các thành phần chính (không phải ảnh giao diện)",
-        "alt": "Các thành phần chính — Tìm kiếm & yêu thích, Phòng & dịch vụ, Quản lý booking"
-      }
-    ]
-  },
-  {
     "id": "titan",
     "name": "Titan AI Research",
     "category": "AI · CONTENT INTELLIGENCE",
@@ -206,14 +161,14 @@ window.portfolioProjects = [
     ],
     "images": [
       {
-        "src": "./assets/projects/titan-1.svg",
-        "caption": "Sơ đồ minh họa · Từ nghiên cứu đến kịch bản (không phải ảnh giao diện)",
-        "alt": "Titan AI Research: nghiên cứu, ngữ cảnh thương hiệu và kịch bản video"
+        "src": "./assets/projects/titan-1.png",
+        "caption": "Ảnh thật · Landing page Dopa — Ship content that sounds like you",
+        "alt": "Dopa landing page — Next.js giao diện cho nhà sáng tạo nội dung với Brand Voice demo"
       },
       {
-        "src": "./assets/projects/titan-2.svg",
-        "caption": "Sơ đồ minh họa · Các thành phần chính (không phải ảnh giao diện)",
-        "alt": "Titan AI Research: Next.js, Temporal và RAG"
+        "src": "./assets/projects/titan-2.png",
+        "caption": "Ảnh thật · Pipeline 4 AI agents — Brand Analysis, Content Matching, Filmer Scripting, Intel Research",
+        "alt": "Dopa four agents pipeline — AI Brand Analysis, Smart Content Matching, Filmer Agent Scripting, Intel Research Tools"
       }
     ]
   }
