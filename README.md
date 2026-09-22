@@ -4,7 +4,7 @@ Portfolio tiếng Việt bằng HTML/CSS/JavaScript thuần. Không cần cài t
 
 ## Dự án & gallery
 
-5 dự án: **BlindNav, IELTS Training App, Odoo Mechanic, ResortBooking và VietNamLaw**. Thẻ đầu nổi bật, bộ lọc theo lĩnh vực, mỗi thẻ mở dialog với 2 hình, mô tả, tính năng, công nghệ và link GitHub. Hỗ trợ phím trái/phải để chuyển ảnh, Escape để đóng, và trả focus về thẻ đã mở.
+5 dự án: **BlindNav, IELTS Training App, Odoo Mechanic, ResortBooking và Titan AI Research**. Thẻ đầu nổi bật, bộ lọc theo lĩnh vực, mỗi thẻ mở dialog với 2 hình, mô tả, tính năng, công nghệ và link GitHub. Hỗ trợ phím trái/phải để chuyển ảnh, Escape để đóng, và trả focus về thẻ đã mở.
 
 - `projects-data.js`: nội dung, repo, công nghệ và danh sách ảnh.
 - `projects.css`: thẻ, bộ lọc và dialog responsive.
@@ -14,7 +14,7 @@ Portfolio tiếng Việt bằng HTML/CSS/JavaScript thuần. Không cần cài t
 
 **Ảnh Odoo** lấy từ `khoadd879/odoo_mechanic`, nhánh `master`, thư mục `docs/sre_visual_evidence/after/` (`home-desktop.png`, `catalog-desktop.png`). Bốn dự án còn lại sử dụng **sơ đồ minh họa**, ghi rõ trong gallery; đây không phải ảnh giao diện hoặc bằng chứng tính năng đã chạy. Có thể thay bằng screenshot thật bằng cách cập nhật trường `images` của từng dự án.
 
-Titan chưa được thêm vì chưa xác định được repository tương ứng.
+Titan AI Research có tên Dopa Research trong README nguồn. Mô tả dựa trên README và package.json; gallery dùng sơ đồ minh họa, không sao chép mã nguồn của dự án.
 
 ## Xem trên máy
 
@@ -36,12 +36,12 @@ Cần đưa cả `projects-data.js`, `projects.css` và thư mục `assets` lên
 
 ## Nguồn mô tả
 
-Nội dung được tóm tắt từ README và cấu trúc module công khai, không phải kết quả kiểm thử các ứng dụng:
+Nội dung được tóm tắt từ README và cấu trúc module của các repository, không phải kết quả kiểm thử các ứng dụng:
 
 - https://github.com/khoadd879/BlindNav
 - https://github.com/khoadd879/ielts_training_app
 - https://github.com/khoadd879/odoo_mechanic
 - https://github.com/khoadd879/ResortBooking
-- https://github.com/khoadd879/VietNamLaw
+- https://github.com/khoadd879/titan-ai-research
 
 Không tự đồng bộ dữ liệu GitHub. Chỉnh `projects-data.js` khi dự án thay đổi.

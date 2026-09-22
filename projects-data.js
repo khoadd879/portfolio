@@ -172,47 +172,48 @@ window.portfolioProjects = [
     ]
   },
   {
-    "id": "law",
-    "name": "VietNamLaw",
-    "category": "AI · FULL STACK",
+    "id": "titan",
+    "name": "Titan AI Research",
+    "category": "AI · CONTENT INTELLIGENCE",
     "group": "ai",
-    "tagline": "Kết nối câu hỏi với tri thức.",
-    "short": "Chatbot hỏi đáp pháp luật tiếng Việt sử dụng RAG, tìm kiếm vector và lịch sử hội thoại.",
-    "description": "Ứng dụng chatbot kết hợp frontend Next.js và backend FastAPI. Pipeline RAG truy xuất ngữ cảnh từ dữ liệu để phục vụ hỏi đáp pháp luật tiếng Việt. Dự án tích hợp tài khoản người dùng, xác thực JWT và lưu lịch sử phiên trò chuyện.",
+    "tagline": "Từ nghiên cứu đến sáng tạo.",
+    "short": "Nền tảng AI nghiên cứu xu hướng, phân tích thương hiệu và hỗ trợ tạo kịch bản video.",
+    "description": "Titan AI Research, được giới thiệu là Dopa Research trong README, là nền tảng hỗ trợ nhà sáng tạo nội dung và marketer. Ứng dụng kết hợp nghiên cứu xu hướng, phân tích đối thủ, xây dựng tài liệu thương hiệu và tạo kịch bản video ngắn. Các workflow AI nhiều bước được điều phối bằng Temporal.",
     "features": [
-      "Pipeline RAG và tìm kiếm tương đồng bằng Qdrant.",
-      "Xử lý câu hỏi và sinh câu trả lời tiếng Việt.",
-      "Tài khoản người dùng và lịch sử hội thoại trên Postgres."
+      "Nghiên cứu xu hướng và đối thủ với Intel Agent.",
+      "Xây dựng Brand Document và Brand Skill Pack làm ngữ cảnh cho AI.",
+      "Tạo, chỉnh sửa và quản lý kịch bản video với Filmer Agent.",
+      "Hỏi đáp theo tài liệu bằng RAG và điều phối workflow với Temporal."
     ],
     "tech": [
-      "FastAPI",
       "Next.js",
-      "Qdrant"
+      "TypeScript",
+      "Temporal"
     ],
-    "repo": "VietNamLaw",
+    "repo": "titan-ai-research",
     "color": "#e7e3ef",
     "accent": "#65507f",
-    "label": "CHATBOT RAG",
+    "label": "AI CONTENT PLATFORM",
     "steps": [
-      "Câu hỏi",
-      "Truy xuất ngữ cảnh",
-      "Câu trả lời"
+      "Nghiên cứu",
+      "Ngữ cảnh thương hiệu",
+      "Kịch bản video"
     ],
     "detail": [
       "Next.js · Giao diện",
-      "FastAPI · Xử lý",
-      "Qdrant · Truy xuất"
+      "Temporal · Workflow",
+      "RAG · Tri thức"
     ],
     "images": [
       {
-        "src": "./assets/projects/law-1.svg",
-        "caption": "Sơ đồ minh họa · Tổng quan dự án (không phải ảnh giao diện)",
-        "alt": "Kết nối câu hỏi với tri thức. — Câu hỏi, Truy xuất ngữ cảnh, Câu trả lời"
+        "src": "./assets/projects/titan-1.svg",
+        "caption": "Sơ đồ minh họa · Từ nghiên cứu đến kịch bản (không phải ảnh giao diện)",
+        "alt": "Titan AI Research: nghiên cứu, ngữ cảnh thương hiệu và kịch bản video"
       },
       {
-        "src": "./assets/projects/law-2.svg",
+        "src": "./assets/projects/titan-2.svg",
         "caption": "Sơ đồ minh họa · Các thành phần chính (không phải ảnh giao diện)",
-        "alt": "Các thành phần chính — Next.js · Giao diện, FastAPI · Xử lý, Qdrant · Truy xuất"
+        "alt": "Titan AI Research: Next.js, Temporal và RAG"
       }
     ]
   }
